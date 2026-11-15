@@ -37,6 +37,8 @@ In directory **Optimal_DTs_with_LAD/**,
 3. Optional choice: **pip install --upgrade pip**
 4. Next, please run: **pip install -r requirements.txt**
 
+Then create the empty output folders (Git does not store empty folders): **python3 create_folders.py**
+
 Before running our approach, first thing first, we need to build c++ script files in **Minimal-Hitting-Set-Algorithm/** and **Minimal-Hitting-Set-Algorithm-100K/** directories.
 
 # In directories `Minimal-Hitting-Set-Algorithms/` and `Minimal-Hitting-Set-Algorithms-100K/`,
