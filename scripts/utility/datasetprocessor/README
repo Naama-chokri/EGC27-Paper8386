@@ -1,0 +1,17 @@
+This folder includes all scripts for transforming different datasets into the following format:
+    1. In the format of .csv
+    2. Every feature will be transformed into binary feature(using one-hot encoding)
+    3. The name of binary feature will be printed in the first line of .csv file
+        -> If there is not supported with the .name file, so just choosing the fi_j as the name, 
+           where i is the index of feature, and j is the index of value in the one-hot encoding
+        -> If there is supported .name file, so use the name_feature_j as the name
+
+There are some pre-requirements for datasets:
+    1. The last item of each record is the label of record
+    2. The label of dataset must be binary
+    3. In option, an .name file for describing the dataset is needed(same format for C4.5)
+    4. Assume that all data have been changed into the integer format
+
+
+
+datasetTransformer/class -> 
