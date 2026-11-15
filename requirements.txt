@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+Cython
+psutil
+pydl8.5
+tqdm
+scipy
+numba
+matplotlib
+python-sat
